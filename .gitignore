@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/django,python,pycharm+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=django,python,pycharm+all
+# Created by https://www.toptal.com/developers/gitignore/api/django,python,pycharm+all,vagrant
+# Edit at https://www.toptal.com/developers/gitignore?templates=django,python,pycharm+all,vagrant
 
 ### Django ###
 *.log
@@ -292,4 +292,14 @@ modules.xml
 
 # pytype static type analyzer
 
-# End of https://www.toptal.com/developers/gitignore/api/django,python,pycharm+all
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
+# End of https://www.toptal.com/developers/gitignore/api/django,python,pycharm+all,vagrant
